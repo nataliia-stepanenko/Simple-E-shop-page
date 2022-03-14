@@ -38,10 +38,16 @@ body {
 	margin-bottom: 14px;
 }
 .product_name {
+	display: block;
 	font-size: 12px;
 	line-height: 14px;
 	margin-bottom: 20px;
 	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+.product_name:hover {
+	color: #557848;
 }
 .product_btn {
 	width: 100%;
@@ -53,6 +59,13 @@ body {
 	color: #fff;
 	font-family: 'Open Sans';
 	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	cursor: pointer;
+}
+.product_btn:hover {
+	background-color: #557821;
+	transform: scale(1.02);
 }
 .boxes_left_banner {
 	border: 1px solid #000;
